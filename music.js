@@ -47,7 +47,7 @@ bot.on('message', (msg) => {
                         ],
                         [
                             {
-                                text: 'Классика',
+                                text: 'Класика',
                                 callback_data: 'classik'
                             }
                         ]
