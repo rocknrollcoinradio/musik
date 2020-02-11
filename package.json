@@ -1,0 +1,17 @@
+{
+  "name": "untitled1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "music.js",
+  "scripts": {
+    "start": "node music.js"
+  },
+  "engines": {
+    "node":"13.7.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
