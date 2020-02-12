@@ -1,1 +1,1 @@
-web: node music.js -p $PORT
+worker: node music.js
