@@ -1,3 +1,3 @@
 worker: node music.js
-heroku ps:scale worker=1
+http.createServer(onRequest).listen(process.env.PORT || 6000)heroku ps:scale worker=1
 
