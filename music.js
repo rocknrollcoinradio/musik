@@ -4,6 +4,8 @@ const token = process.env.TELEGRAM_BOT_TOKEN;
 //const token = '864175027:AAHj3xy-ZX54knuu8WemxFaZl0vAWt0VuB8';
 const bot = new TelegramBot(token, {polling: true});
 const idAdmin = 945447562;
+var http = require('http');http.createServer(function (req, res) { res.writeHead(200, {'Content-Type': 'text/plain'}); res.send('it is running\n'); }).listen(process.env.PORT || 5000);
+
 bot.on('message', (msg) => {
     const chatId = msg.chat.id;// извлекаем id чата
     const first_name = msg.chat.first_name;// извлекаем имя пользователя
